@@ -1,0 +1,15 @@
+{
+  "skills": ["stop-slop-magyar"],
+  "name": "AI-szagú marketingszöveg",
+  "query": "Mi a baj ezzel a szöveggel?\n\n„Egy olyan világban, ahol minden nap gyorsabban változik, a mai rohanó világban tulajdonképpen mindenki keresi a megoldást. A nap végén az igazság az, hogy nem a technológia számít. Hanem az ember. Fontos megjegyezni, hogy amikor a digitális átalakulásról van szó, a kérdés nem az, hogy változtatunk-e, hanem hogy mikor. Platformunk implementálása kapcsán érdemes szem előtt tartani a felhasználói élmény optimalizálásának a fontosságát. Egyszerű. Gyors. Hatékony.\"",
+  "expected_behavior": [
+    "Nem írja át magától a szöveget, mert a felhasználó véleményt kért, nem szerkesztést — hibalistát ad.",
+    "Megnevezi a tükörfordításokat: 'egy olyan világban, ahol', 'a nap végén', 'amikor a ...-ról van szó'.",
+    "Megnevezi az üres töltelékeket ('tulajdonképpen', 'az igazság az, hogy', 'a mai rohanó világban') és a 'Fontos megjegyezni, hogy' felvezetőt.",
+    "Szóvá teszi a halmozott bináris kontrasztot ('Nem a technológia. Hanem az ember.' + 'a kérdés nem az, hogy... hanem hogy...').",
+    "Szóvá teszi a ritmust: a záró 'Egyszerű. Gyors. Hatékony.' három tagú, pattogó tőmondatsor pusztán a ritmusért.",
+    "Szóvá teszi a megalapozatlan általánosítást ('mindenki keresi a megoldást') és a 'implementálása' / 'optimalizálásának' idegen szavakat.",
+    "Ad pontozást öt szempontra 1–10-ig, összeggel és szempontonkénti egymondatos indoklással, mert értékelést kértek.",
+    "A pontszám jóval 35/50 alatt van."
+  ]
+}

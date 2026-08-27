@@ -1,0 +1,14 @@
+{
+  "skills": ["stop-slop-magyar"],
+  "name": "Negatív teszt: idézet és szerződéses rész érintetlenül marad",
+  "query": "Gyomláld ki ebből a cikkrészletből az AI-szagot:\n\n„A cég tegnap bejelentette az átszervezést. Fontos megjegyezni, hogy a döntés meghozatalára hosszú egyeztetés után került sor, és a nap végén tulajdonképpen mindenki elfogadta.\n\nKovács Anna, a szakszervezet vezetője így fogalmazott: »Elmondható, hogy a munkavállalók érdekei figyelembevételre kerültek, ugyanakkor a folyamat átláthatósága vonatkozásában továbbra is vannak fenntartásaink.«\n\nA szerződés 4.2 pontja szerint: »A Felek rögzítik, hogy a jelen szerződés alapján teljesítendő szolgáltatások vonatkozásában a Megrendelő részéről kifogás előterjesztésére a teljesítéstől számított 30 (harminc) napon belül kerülhet sor.«\n\nAz átszervezés a jövőben érinti a budapesti telephelyet is.\"",
+  "expected_behavior": [
+    "A Kovács Anna-idézetet szó szerint hagyja, pedig tele van terpeszkedő szerkezettel ('figyelembevételre kerültek', 'vonatkozásában') és személytelen körülírással ('elmondható, hogy').",
+    "A szerződés 4.2 pontját szó szerint hagyja, mert kötött formájú jogi szöveg.",
+    "Kovács Anna nevét és a 30 napos határidőt nem változtatja meg.",
+    "A saját újságírói prózát viszont átírja: kivágja a 'Fontos megjegyezni, hogy', 'a nap végén', 'tulajdonképpen' fordulatokat, és a 'meghozatalára ... került sor' terpeszkedő szerkezetet igére cseréli.",
+    "A 'mindenki elfogadta' általánosítást vagy megtartja (ha a szöveg tényként állítja), vagy jelzi, hogy alátámasztás kellene — de nem cseréli kitalált számadatra.",
+    "Az 'a jövőben' fordulatot nem javítja 'ezután'-ra: ez sima magyar szókapcsolat, nem hiba.",
+    "Jelzi a válaszában, hogy az idézetet és a szerződéses bekezdést szándékosan hagyta érintetlenül."
+  ]
+}
