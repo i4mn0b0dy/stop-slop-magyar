@@ -60,7 +60,7 @@ Magyar prózából gyomláld ki az AI-szagú és tükörfordítás-ízű fordula
 
 **Bürokratikus / hivataloskodó fordulatok**: „...-val/-vel kapcsolatban" → ...-ról; „...vonatkozásában / tekintetében" → ...-ban / ...-nál; „annak érdekében, hogy" → hogy; „azzal a céllal, hogy" → hogy; „a fentiek alapján" → ezért.
 
-**Megalapozatlan általánosítás**: a „minden", „mindig", „soha", „mindenki", „senki", „teljesen", „tökéletesen" akkor hiba, ha csak nyomatéknak használod. „Minden felhasználó ezt akarja" → „a megkérdezett tizenkettőből kilenc ezt akarta". Ha az állítás tényleg kivétel nélküli, maradhat.
+**Megalapozatlan általánosítás**: a „minden", „mindig", „soha", „mindenki", „senki", „teljesen", „tökéletesen" akkor hiba, ha csak nyomatéknak használod. „Minden felhasználó ezt akarja" → „a megkérdezett tizenkettőből kilenc ezt akarta". Ha az állítás kivétel nélküli, maradhat.
 
 ## Terpeszkedő kifejezések (fő magyar hiba)
 
@@ -84,7 +84,7 @@ A magyar AI-szöveg leggyakoribb jele: az igét főnév + segédige párosra bon
 
 **Személytelen körülírás** (nevezd meg a cselekvőt): „elmondható, hogy", „megállapítható, hogy", „kijelenthető, hogy", „az a helyzet áll fenn, hogy", „arra a következtetésre lehet jutni". Helyette: ki mondja, ki állapítja meg, ki dönt.
 
-**Elbújtatott cselekvő**: ha számít, ki cselekszik, ne rejtsd el. „A tanulmány azt javasolja" → „a szerzők azt javasolják"; „a kultúra megváltozik" → „a vezetők megváltoztatják". Ha a cselekvő tényleg lényegtelen, maradhat: „az adatok azt mutatják" és „megszületett a döntés" jó magyar fordulat, nem kell irtani.
+**Elbújtatott cselekvő**: ha számít, ki cselekszik, ne rejtsd el. „A tanulmány azt javasolja" → „a szerzők azt javasolják"; „a kultúra megváltozik" → „a vezetők megváltoztatják". Ha a cselekvő lényegtelen, maradhat: „az adatok azt mutatják" és „megszületett a döntés" jó magyar fordulat, nem kell irtani.
 
 **Kötőszó-tapadás**: sok mondat „Tehát", „Illetve", „Valamint", „Azonban", „Ugyanakkor" kezdéssel. Ritkítsd, változtass.
 

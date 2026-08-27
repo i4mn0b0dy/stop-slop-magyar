@@ -2,7 +2,7 @@
 
 Claude-skill, amely az AI-szagú és tükörfordítás-ízű fordulatokat gyomlálja ki a magyar prózából: töltelékszavak, terpeszkedő kifejezések, óvatoskodó felvezetők, anglicizmusok.
 
-A [stop-slop](https://github.com/hardikpandya/stop-slop) (Hardik Pandya, MIT licenc) magyar nyelvre és magyar hibatípusokra hangolt párja — nem fordítás, hanem a magyar szövegekben ténylegesen előforduló problémákra (terpeszkedő szerkezetek, bürokratikus fordulatok, tükörfordítások) épített szabálygyűjtemény.
+A [stop-slop](https://github.com/hardikpandya/stop-slop) (Hardik Pandya, MIT licenc) magyar párja. A szabályok a magyar szövegek saját hibáira épülnek: terpeszkedő szerkezetek, bürokratikus fordulatok, tükörfordítások.
 
 ## Mit csinál
 
@@ -34,7 +34,7 @@ A mappa nevének egyeznie kell a `SKILL.md` frontmatterében szereplő `name` me
 
 ## Tesztelés
 
-Az `evals/` mappában három forgatókönyv van: egy hivataloskodó körlevél, egy AI-szagú marketingszöveg, és egy negatív teszt, amely azt méri, hogy a skill békén hagyja-e az idézetet és a szerződéses bekezdést. Futtatás és értékelés: [evals/README.md](evals/README.md).
+Három teszteset: [evals.md](evals.md). A harmadik a legfontosabb — azt méri, hogy a skill békén hagyja-e az idézetet és a szerződéses bekezdést.
 
 ## Licenc
 
