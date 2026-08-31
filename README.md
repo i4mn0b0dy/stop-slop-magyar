@@ -34,7 +34,7 @@ A mappa nevének egyeznie kell a `SKILL.md` frontmatterében szereplő `name` me
 
 ## Tesztelés
 
-Három teszteset: [evals.md](evals.md). A harmadik a legfontosabb — azt méri, hogy a skill békén hagyja-e az idézetet és a szerződéses bekezdést.
+Ha módosítod a szabályokat, egy dolgot ellenőrizz újra: adj a skillnek egy cikkrészletet, amelyben idézet és szerződéses bekezdés is van, mindkettő tele terpeszkedő szerkezettel. Ha bármelyikhez hozzányúl, a „Mikor ne használd" rész nem elég erős.
 
 ## Licenc
 
